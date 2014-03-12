@@ -30,6 +30,7 @@ import java.awt.Toolkit;
 import java.util.LinkedList;
 import java.util.Random;
 //prueba
+// YA BASTAAAAAAAAAAAAAAAA
 
 public class flap extends JFrame implements Runnable, KeyListener, MouseListener, MouseMotionListener {
 
@@ -47,6 +48,7 @@ public class flap extends JFrame implements Runnable, KeyListener, MouseListener
     private int dificultad;
     private int posrX;             //posicion inicial de kirby en x
     private int posrY;
+    private int yabasta;
     private Image Fondo;           //fondo del juego
     private Image instrucciones;   //instrucciones del juego
     private Image credits;         //creditos
@@ -87,6 +89,7 @@ public class flap extends JFrame implements Runnable, KeyListener, MouseListener
         vidas = 5;
         puntos = 0;
         aceleracion = 1;
+        yabasta = 5;
 
         random = (int) ((Math.random() * (4 - 1)) + 1);
         addKeyListener(this);
